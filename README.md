@@ -1,1 +1,2 @@
-# super-tribbleUseful snippets and shell scripts
+# super-tribble
+# Useful snippets and shell scripts

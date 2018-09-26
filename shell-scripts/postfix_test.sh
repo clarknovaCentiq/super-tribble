@@ -1,12 +1,9 @@
 #!/bin/bash
 
 # Script to test remote postfix status
-
-# These are our servers
-SERVER1=prd-leweb03b.centiq.co.uk
-SERVER2=prd-noweb03b.centiq.co.uk
-#SERVER1=192.168.0.105
-#SERVER2=192.168.0.202
+# Enter your server hostnames here:
+SERVER1=
+SERVER2=
 
 PORT=25  #Postfix port
 
@@ -56,7 +53,7 @@ if [ "$SERVER2_PING_STATUS" == "CONNECTION ERROR!" ]; then
     SERVER1_PF_STATUS=$SERVER2_PING_STATUS
 fi
 
-# Here comes the Monitiq output
+# Here comes the monitoring output
 echo "ma_name: postfix_status"
 echo "ma_group_name: Postfix"
 echo "ma_short_name: ptfx"

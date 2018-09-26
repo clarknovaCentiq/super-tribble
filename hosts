@@ -1,0 +1,70 @@
+127.0.0.1		localhost.localdomain localhost
+::1		localhost6.localdomain6 localhost6
+
+192.168.122.247	account.example.com
+# Centiq Systems
+192.168.182.15  cerberus
+
+# Pets at Home
+10.250.201.41 pahhana01
+
+192.168.0.107	microserver
+192.168.0.105	ghost
+
+
+# NHS Glasgow
+10.241.22.22	scgcmgmt1
+10.241.25.22	scgcmgmt2
+10.241.23.25    scgcnagios
+
+
+# NHS Highland
+10.250.129.251	schirdp1.schi.n3
+10.250.129.252  schirdp2.schi.n3
+
+
+# NHS Lanarkshire
+# Windows Hosts
+10.242.188.36	sclamgmt1
+10.242.188.37   sclamgmt2
+10.242.188.240  hrm-vcenter
+10.250.147.32   gjh-vcenter
+# Linux Hosts
+10.242.188.32	sclanagios
+
+# AIX
+10.242.170.115	scladb2
+
+
+# NHS Grampian
+# Linux
+10.251.17.39	scgrnagios
+
+
+# NHS Golden Jubilee
+# Linux
+192.168.131.54	scgjtestdb
+
+# NNUH Systems
+10.145.94.150	nntrakdb01
+10.145.94.151	nntrakdb02
+10.145.94.157	nntrakdb03
+
+10.145.80.40	nnpas_live
+10.145.80.41	nnpas_train
+10.145.80.42	nnpas_test
+#192.168.254.72	monitiq.com optiq-monitoring.centiq.co.uk
+#
+#
+#
+#
+#
+192.168.253.83	ratticdb
+
+
+# Home lab systems
+#192.168.122.247	ipa.example.com
+#
+#
+#
+#192.168.253.46	dev-support.centiq.co.uk
